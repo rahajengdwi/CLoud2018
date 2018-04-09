@@ -2,6 +2,10 @@
 1. 5115100033 [Rahajeng Dwi](https://github.com/rahajengdwi)
 2. 5115100151 [Wahyu Pujiono](https://github.com/wahyupujiono)
 
+# Dokumentasi Tugas :
+1. Tugas 1 [Vagrant](https://github.com/rahajengdwi/CLoud2018/tree/master/Vagrant)
+2. Tugas 2 [Load Balancing](https://github.com/rahajengdwi/CLoud2018/tree/master/Nginx)
+
 # Nama Kelompok FP :
 1. 5115100033 [Rahajeng Dwi](https://github.com/rahajengdwi)
 2. 5115100132 [Reinhart Caesar](https://github.com/ReinhartC)
