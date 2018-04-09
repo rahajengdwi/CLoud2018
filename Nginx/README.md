@@ -3,8 +3,11 @@ Buatlah sistem load balancing dengan 1 load balancer(nginx dan 2 worker(apache2)
 
 Soal :
 1. Buatlah Vagrantfile sekaligus provisioning-nya untuk menyelesaikan kasus.
+[JAWABAN]
 2. Analisa apa perbedaan antara ketiga algoritma tersebut.
+[JAWABAN]
 3. Biasanya pada saat membuat website, data user yang sedang login disimpan pada session. Sesision secara default tersimpan pada memory pada sebuah host. Bagaimana cara mengatasi masalah session ketika kita melakukan load balancing?
+[JAWABAN]
 
 <strong>Petunjuk</strong>
 1. Lakukan soal nomor 1 dan dokumentasikan bagaimana cara setupnya pada laporan markdown.
