@@ -4,7 +4,7 @@ Buatlah sistem load balancing dengan 1 load balancer(nginx dan 2 worker(apache2)
 Soal :
 1. Buatlah Vagrantfile sekaligus provisioning-nya untuk menyelesaikan kasus.
     
-    [JAWABAN](https://github.com/rahajengdwi/CLoud2018/blob/master/Nginx/1.md)
+    [JAWABAN](https://github.com/rahajengdwi/CLoud2018/blob/master/Nginx/1/1.md)
 2. Analisa apa perbedaan antara ketiga algoritma tersebut.
   
     [JAWABAN](https://github.com/rahajengdwi/CLoud2018/blob/master/Nginx/2.md)
