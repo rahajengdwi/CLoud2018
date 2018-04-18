@@ -11,7 +11,7 @@ Setelah membuat custom image container, mereka kemudian membuat file docker-comp
 
 Setelah mempersiapkan worker, mereka kemudian menyiapkan nginx untuk loadbalancing ketiga worker tersebut (diperbolehkan menggunakan images container yang sudah jadi dan ada di Docker Hub) [3].
 
-[JAWABAN]
+[JAWABAN](https://github.com/rahajengdwi/CLoud2018/blob/master/Docker/3.md)
 
 Karena web mereka membutuhkan mysql sebagai database, terakhir mereka membuat container mysql (diperbolehkan menggunakan images container yang sudah jadi dan ada di Docker Hub) yang dapat diakses oleh ke-3 worker yang berisi web mereka tadi dengan environment:
 
