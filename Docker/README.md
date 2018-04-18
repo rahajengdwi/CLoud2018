@@ -21,4 +21,4 @@ nama database : reservasi</pre>
 
 Selain setup environmet mysql, mereka juga mengimport dump database web mereka menggunakan Docker Compose dan tak lupa membuat volume agar storage mysql menjadi persisten[4].
 
-[JAWABAN]
+[JAWABAN](https://github.com/rahajengdwi/CLoud2018/blob/master/Docker/4.md)
