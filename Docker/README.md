@@ -3,7 +3,7 @@ Nana adalah mahasiswa semester 6 dan sekarang sedang mengambil matakuliah komput
 
 Setelah membuat web, Putra dan Nana membuat Custom Image Container menggunakan Dockerfile. Mereka membuat image container menggunakan base container ubuntu:16.04 kemudian menginstall aplikasi flask dan pendukungnya agar website dapat berjalan [1].
 
-[JAWABAN]
+[JAWABAN](https://github.com/rahajengdwi/CLoud2018/blob/master/Docker/1.md)
 
 Setelah membuat custom image container, mereka kemudian membuat file docker-compose.yml. Dari custom image yang dibuat sebelumnya mereka membuat 3 node yaitu worker1, worker2, dan worker3 [2].
 
