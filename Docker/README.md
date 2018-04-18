@@ -7,7 +7,7 @@ Setelah membuat web, Putra dan Nana membuat Custom Image Container menggunakan D
 
 Setelah membuat custom image container, mereka kemudian membuat file docker-compose.yml. Dari custom image yang dibuat sebelumnya mereka membuat 3 node yaitu worker1, worker2, dan worker3 [2].
 
-[JAWABAN]
+[JAWABAN](https://github.com/rahajengdwi/CLoud2018/blob/master/Docker/2.md)
 
 Setelah mempersiapkan worker, mereka kemudian menyiapkan nginx untuk loadbalancing ketiga worker tersebut (diperbolehkan menggunakan images container yang sudah jadi dan ada di Docker Hub) [3].
 
