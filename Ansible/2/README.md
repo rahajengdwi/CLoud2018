@@ -1,7 +1,7 @@
 
 1. Buat file `mysql.yml` dengan isi :
 
-   <pre>- hosts: db
+- hosts: db
   tasks:
     - name: Install Mysql
       become: yes #untuk menjadi superuser
@@ -47,7 +47,7 @@
       become: yes
       become_user: root
       become_method: su
-      mysql_db: name=hackathondb state=present</pre>
+      mysql_db: name=hackathondb state=present
       
 2. Kemudian jalankan perintah
 
