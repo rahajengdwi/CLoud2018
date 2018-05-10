@@ -17,3 +17,47 @@
 
     <pre>sudo apt install ansible
    sudo apt-get install sshpass</pre>
+   
+5. Pada VM jalankan perintah
+
+   <pre>sudo apt-get install openssh-server</pre>
+   
+6. Pada komputer host, buat folder ansible
+
+   <pre>mkdir ansible
+   cd ansible</pre>
+   
+7. Buat file <pre>hosts</pre>, dengan isi :
+
+   <pre>worker1 ansible_host=192.168.1.9 ansible_ssh_user=worker1 ansible_become_pass=root
+   worker2 ansible_host=192.168.1.16 ansible_ssh_user=worker2 ansible_become_pass=root
+   database1 ansible_host=192.168.1.15 ansible_ssh_user=regal ansible_become_pass=bolaubi<pre>
+   
+8. Kemudian jalankan perintah
+
+   <pre>ansible -i ./hosts -m ping all -k</pre>
+
+   <img src="https://github.com/rahajengdwi/CLoud2018/blob/master/Ansible/img/ping.png">
+   
+   Keterangan :
+   
+    i. parameter -i digunakan untuk digunakan untuk mendeclare ansible inventory.
+   ii. parameter -m digunakan untuk declare module command
+  iii. parameter -k digunakan untuk menanyakan password login ssh
+   iv. parameter all digunakan untuk penanda ansible dijalankan di host mana. Parameter all bisa diganti dengan nama host.
+   
+ 9. Untuk shell command, jalankan perintah
+ 
+ <pre>ansible -i ./hosts -m shell -a 'uname -a' all -k</pre>
+ 
+ <img src="https://github.com/rahajengdwi/CLoud2018/blob/master/Ansible/img/shellcommand.png">
+ 
+ 10. Lakukan <b>Grouping Host</b> pada file <pre>hosts</pre> sebagai berikut :
+ 
+ <pre>[worker]
+worker1 ansible_host=192.168.1.9 ansible_ssh_user=worker1 ansible_become_pass=root
+worker2 ansible_host=192.168.1.16 ansible_ssh_user=worker2 ansible_become_pass=root
+
+[db]
+database1 ansible_host=192.168.1.15 ansible_ssh_user=regal ansible_become_pass=bolaubi<pre>
+
