@@ -27,7 +27,7 @@
    <pre>mkdir ansible
    cd ansible</pre>
    
-7. Buat file <pre>hosts, dengan isi :
+7. Buat file <i>hosts</i>, dengan isi :
 
    <pre>worker1 ansible_host=192.168.1.9 ansible_ssh_user=worker1 ansible_become_pass=root
    worker2 ansible_host=192.168.1.16 ansible_ssh_user=worker2 ansible_become_pass=root
@@ -42,17 +42,20 @@
    Keterangan :
    
     i. parameter -i digunakan untuk digunakan untuk mendeclare ansible inventory.
-   ii. parameter -m digunakan untuk declare module command
-  iii. parameter -k digunakan untuk menanyakan password login ssh
+    
+   ii. parameter -m digunakan untuk declare module command.
+   
+  iii. parameter -k digunakan untuk menanyakan password login ssh.
+  
    iv. parameter all digunakan untuk penanda ansible dijalankan di host mana. Parameter all bisa diganti dengan nama host.
    
- 9. Untuk shell command, jalankan perintah
+ 9. Untuk <b>Shell Command</b>, jalankan perintah
  
  <pre>ansible -i ./hosts -m shell -a 'uname -a' all -k</pre>
  
  <img src="https://github.com/rahajengdwi/CLoud2018/blob/master/Ansible/img/shellcommand.png">
  
- 10. Lakukan <b>Grouping Host</b> pada file <pre>hosts</pre> sebagai berikut :
+ 10. Lakukan <b>Grouping Host</b> pada file <i>hosts</i> sebagai berikut :
  
  <pre>[worker]
 worker1 ansible_host=192.168.1.9 ansible_ssh_user=worker1 ansible_become_pass=root
