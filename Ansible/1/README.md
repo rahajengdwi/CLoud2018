@@ -6,6 +6,7 @@
 2. Download Ubuntu 16.04 dan Debian 9 yang akan digunakan
 
    [Ubuntu 16.04](http://releases.ubuntu.com/16.04/)
+   
    [Debian 9](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/)
    
 3. Buat 3 Virtual Machine pada virtualbox yang sudah di install (2 VM Ubuntu 16.04 sebagai worker dan 1 VM Debian 9 sebagai DB server)
