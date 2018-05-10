@@ -29,8 +29,8 @@
 
   Worker1
   
-  <img src="https://github.com/rahajengdwi/CLoud2018/blob/master/Ansible/img/Screenshot%20from%202018-05-10%2014-35-10.png">
+  <img src="https://github.com/rahajengdwi/CLoud2018/blob/master/Ansible/img/Screenshot%20from%202018-05-10%2016-56-27.png">
 
   Worker2
   
-  <img src="https://github.com/rahajengdwi/CLoud2018/blob/master/Ansible/img/Screenshot%20from%202018-05-10%2014-35-04.png">
+  <img src="https://github.com/rahajengdwi/CLoud2018/blob/master/Ansible/img/Screenshot%20from%202018-05-10%2016-56-21.png">
