@@ -37,7 +37,7 @@
    
 5. Buat file `php7-module.yml` dengan isi :
 
-   <pre>- hosts: worker
+<pre>- hosts: worker
   tasks:
     - name: PHP | Install PHP Modules
       become: yes #untuk menjadi superuser
