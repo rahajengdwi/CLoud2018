@@ -27,7 +27,7 @@
    <pre>mkdir ansible
    cd ansible</pre>
    
-7. Buat file <i>hosts</i>, dengan isi :
+7. Buat file `hosts`, dengan isi :
 
    <pre>worker1 ansible_host=192.168.1.9 ansible_ssh_user=worker1 ansible_become_pass=root
    worker2 ansible_host=192.168.1.16 ansible_ssh_user=worker2 ansible_become_pass=root
@@ -55,7 +55,7 @@
  
  <img src="https://github.com/rahajengdwi/CLoud2018/blob/master/Ansible/img/shellcommand.png">
  
- 10. Lakukan <b>Grouping Host</b> pada file <i>hosts</i> sebagai berikut :
+ 10. Lakukan <b>Grouping Host</b> pada file `hosts` sebagai berikut :
  
  <pre>[worker]
 worker1 ansible_host=192.168.1.9 ansible_ssh_user=worker1 ansible_become_pass=root
@@ -63,4 +63,3 @@ worker2 ansible_host=192.168.1.16 ansible_ssh_user=worker2 ansible_become_pass=r
 
 [db]
 database1 ansible_host=192.168.1.15 ansible_ssh_user=regal ansible_become_pass=bolaubi<pre>
-
