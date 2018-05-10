@@ -1,5 +1,5 @@
 
-Buat file `.env` pada folder ansible di komputer hosts dengan isi :
+Buat file `.env` pada folder ansible di komputer host dengan isi :
 
 <pre>APP_NAME=Laravel
 APP_ENV=local
