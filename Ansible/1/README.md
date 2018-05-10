@@ -27,7 +27,7 @@
    <pre>mkdir ansible
    cd ansible</pre>
    
-7. Buat file <pre>hosts</pre>, dengan isi :
+7. Buat file <pre>hosts, dengan isi :
 
    <pre>worker1 ansible_host=192.168.1.9 ansible_ssh_user=worker1 ansible_become_pass=root
    worker2 ansible_host=192.168.1.16 ansible_ssh_user=worker2 ansible_become_pass=root
