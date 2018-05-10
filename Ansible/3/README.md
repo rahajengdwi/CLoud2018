@@ -56,3 +56,20 @@
    <pre>nsible-playbook -i hosts php7-module.yml -k</pre>
    
    <img src="https://github.com/rahajengdwi/CLoud2018/blob/master/Ansible/img/php7-module.png">
+   
+7. Buat file `composer.yml` dengan isi :
+
+<pre>- hosts: worker
+  tasks:
+    - stat: path=/usr/local/bin/composer
+      register: composer_folder
+    - name: PHP | Install Composer
+      become: yes #untuk menjadi superuser
+      shell: curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer creates=/usr/local/bin/composer
+      when: composer_folder.stat.isdir is not defined</pre>
+      
+8. Kemudian jalankan perintah
+
+   <pre>nsible-playbook -i hosts composer.yml -k</pre>
+   
+   <img src="https://github.com/rahajengdwi/CLoud2018/blob/master/Ansible/img/composer.png">
