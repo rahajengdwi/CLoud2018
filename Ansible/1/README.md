@@ -41,13 +41,10 @@
    
    Keterangan :
    
-    i. parameter -i digunakan untuk digunakan untuk mendeclare ansible inventory.
-    
-   ii. parameter -m digunakan untuk declare module command.
-   
-  iii. parameter -k digunakan untuk menanyakan password login ssh.
-  
-   iv. parameter all digunakan untuk penanda ansible dijalankan di host mana. Parameter all bisa diganti dengan nama host.
+    i. parameter -i digunakan untuk digunakan untuk mendeclare ansible inventory. 
+    ii. parameter -m digunakan untuk declare module command.
+    iii. parameter -k digunakan untuk menanyakan password login ssh.
+    iv. parameter all digunakan untuk penanda ansible dijalankan di host mana. Parameter all bisa diganti dengan nama host.
    
  9. Untuk <b>Shell Command</b>, jalankan perintah
  
@@ -58,8 +55,8 @@
  10. Lakukan <b>Grouping Host</b> pada file `hosts` sebagai berikut :
  
  <pre>[worker]
- worker1 ansible_host=192.168.1.9 ansible_ssh_user=worker1 ansible_become_pass=root
- worker2 ansible_host=192.168.1.16 ansible_ssh_user=worker2 ansible_become_pass=root
+worker1 ansible_host=192.168.1.9 ansible_ssh_user=worker1 ansible_become_pass=root
+worker2 ansible_host=192.168.1.16 ansible_ssh_user=worker2 ansible_become_pass=root
 
 [db]
 database1 ansible_host=192.168.1.15 ansible_ssh_user=regal ansible_become_pass=bolaubi</pre>
