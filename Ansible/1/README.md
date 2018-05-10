@@ -31,7 +31,7 @@
 
    <pre>worker1 ansible_host=192.168.1.9 ansible_ssh_user=worker1 ansible_become_pass=root
    worker2 ansible_host=192.168.1.16 ansible_ssh_user=worker2 ansible_become_pass=root
-   database1 ansible_host=192.168.1.15 ansible_ssh_user=regal ansible_become_pass=bolaubi<pre>
+   database1 ansible_host=192.168.1.15 ansible_ssh_user=regal ansible_become_pass=bolaubi</pre>
    
 8. Kemudian jalankan perintah
 
@@ -58,8 +58,8 @@
  10. Lakukan <b>Grouping Host</b> pada file `hosts` sebagai berikut :
  
  <pre>[worker]
-worker1 ansible_host=192.168.1.9 ansible_ssh_user=worker1 ansible_become_pass=root
-worker2 ansible_host=192.168.1.16 ansible_ssh_user=worker2 ansible_become_pass=root
+ worker1 ansible_host=192.168.1.9 ansible_ssh_user=worker1 ansible_become_pass=root
+ worker2 ansible_host=192.168.1.16 ansible_ssh_user=worker2 ansible_become_pass=root
 
 [db]
-database1 ansible_host=192.168.1.15 ansible_ssh_user=regal ansible_become_pass=bolaubi<pre>
+database1 ansible_host=192.168.1.15 ansible_ssh_user=regal ansible_become_pass=bolaubi</pre>
