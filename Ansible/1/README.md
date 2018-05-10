@@ -41,10 +41,13 @@
    
    Keterangan :
    
-    i. parameter -i digunakan untuk digunakan untuk mendeclare ansible inventory. 
-    ii. parameter -m digunakan untuk declare module command.
-    iii. parameter -k digunakan untuk menanyakan password login ssh.
-    iv. parameter all digunakan untuk penanda ansible dijalankan di host mana. Parameter all bisa diganti dengan nama host.
+   i. parameter -i digunakan untuk digunakan untuk mendeclare ansible inventory.
+   
+   ii. parameter -m digunakan untuk declare module command.
+   
+   iii. parameter -k digunakan untuk menanyakan password login ssh.
+   
+   iv. parameter all digunakan untuk penanda ansible dijalankan di host mana. Parameter all bisa diganti dengan nama host.
    
  9. Untuk <b>Shell Command</b>, jalankan perintah
  
