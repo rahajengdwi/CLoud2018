@@ -16,4 +16,4 @@
 4. Pada komputer host jalankan perintah
 
     <pre>sudo apt install ansible
-    sudo apt-get install sshpass</pre>
+   sudo apt-get install sshpass</pre>
